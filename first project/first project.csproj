@@ -51,8 +51,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameCode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +71,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -71,9 +84,68 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\bear teset 1.psd" />
+    <None Include="Resources\rabbit test 1.psd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rabbit needs editing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dear test 1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear test 1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rabbit test 1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1 Garand Single-SoundBible.com-1941178963.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you_win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alive deer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\166068__vosvoy__m1garand-clipding.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
